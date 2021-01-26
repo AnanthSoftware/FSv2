@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MPNMJEC</string>
+    <string name="website">Official Website</string>
+    <string name="student">Student Portal</string>
+    <string name="location">Location</string>
+    <string name="contact">Contact</string>
+    <string name="header_image">Header Image</string>
+    <string name="subtitle">ONLINE SERVICES</string>
+    <string name="action_about">About</string>
+    <string name="action_rate">Rate us</string>
+    <string name="phone">Phone: +91 9597133734</string>
+    <string name="email">Email: ananthatstar@gmail.com</string>
+    <string name="weburl">Website: ananthsoft.org</string>
+    <string name="nameinfo">Final year, CSE</string>
+    <string name="name">Ananth B</string>
+    <string name="dev">Developed by</string>
+    <string name="veronezeroinfo">- Initial version</string>
+    <string name="veronezero">1.0</string>
+    <string name="changelog">Changelog</string>
+    <string name="source">Source code available at github.com/ananthatstar/projects</string>
+</resources>

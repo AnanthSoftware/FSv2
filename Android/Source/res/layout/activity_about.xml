@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:id="@+id/changelog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:text="@string/changelog"
+        android:textColor="#444444"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/v1.0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="@string/veronezero"
+        android:textColor="#666666"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/v1.0info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:text="@string/veronezeroinfo"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/dev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="10dp"
+        android:text="@string/dev"
+        android:textColor="#444444"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="@string/name"
+        android:textColor="#666666"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nameinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:text="@string/nameinfo"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/website"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:paddingLeft="40dp"
+        android:text="@string/weburl"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="phone"
+        android:paddingLeft="40dp"
+        android:text="@string/phone"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="email"
+        android:paddingLeft="40dp"
+        android:text="@string/email"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/source"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web|email"
+        android:paddingLeft="40dp"
+        android:text="@string/source"
+        android:textSize="18sp" />
+
+</LinearLayout>
